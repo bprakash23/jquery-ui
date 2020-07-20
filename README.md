@@ -1,2 +1,2 @@
 # jquery-ui
-functionaliy needed
+Functionality Buzzfeed Quiz
