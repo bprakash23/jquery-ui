@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+}
+.main{
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;
+    width: 50%;
+}
+.main h1{
+    background-color:red;
+    font-size: 55px;
+    text-align: center;
+    color: #ffffff;
+    padding: 2px 0px;
+    width: 96%;
+    margin:10px 0;
+}
+.btn-text:hover{
+    transform: scale(1.1);
+    transition-duration: .1s;
+}
+.buttons > button{
+    width: 47%;
+    margin: 3px;
+    font-size: 48px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+}
+.buttons > button.disabled::before{
+    content: '';
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+}
